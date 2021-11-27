@@ -1,0 +1,24 @@
+Austin,California,New York,NotAustin
+bathroom1,air1,air1,air1
+clotheswasher1,bathroom1,bathroom1,bathroom1
+dishwasher1,clotheswasher1,car1,car1
+drye1,dishwasher1,clotheswasher1,clotheswasher1
+microwave1,dryg1,drye1,dishwasher1
+oven1,kitcheapp1,kitchenapp1,disposal1
+refrigerator1,kitchapp2,kitchenapp2,drye1
+kitchenapp1,microwave1,microwave1,dryg1
+solar,oven1,oven1,kitchenapp1
+,refrigerator1,refrigerator1,kitchenapp2
+,solar,solar,microwave1
+,grid,freezer1,oven1
+,,waterheater1,refrigerator1
+,,grid,solar
+,,,livingroom1
+,,,diningroom1
+,,,grid
+,,,livingroom1
+,,,diningroom1
+,,,disposal1
+,,,dryg1
+,,,grid
+,,,car1

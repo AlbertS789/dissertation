@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore PSD to respect the license
+datasets/use/15mins/*
+
+# Ignore pickles
+*.pickle
