@@ -6,6 +6,8 @@ This dissertation aims to propose a model using decentralized multi-agent reinfo
 
 At the end, the investigation suggest to use a model using deep Q-learning for the multi-agent context to suggest when it is a good moment to turn on or off each cooking and cleaning appliance per house. Showing reductions of up to 5.44\% in the total consumption of the environment, which represents a reduction of 154.21 kg CO2 on average per day, and saving up to 12.45 US dollars per month in one of the houses of the simulated environment. In addition, a system to show the performance of the customer alongside with the suggestion of the model is proposed, which gives access to the information not only through a light and responsive web site, but also through SMS. 
 
+The given notebook shows the implementation used of this project, and gives an example using 25 episodes to gives a clear idea of how the project works, but for the dissertation more episodes were used.
+
 ### Accessing Pecan Street Dataset
 This project uses the Pecan Street Dataset (https://www.pecanstreet.org/dataport/) and their policy restricts the unauthorized share of the documents. Thefore, following there are the step to access to the data used in this investigation. 
 
@@ -19,4 +21,3 @@ Once the access is granted
 2. In the upper right menu, select Data > Residential Data
 3. In the table on the screen, at the row identified as "15-minute", download the file named "Austin 15-min (22.4 MB)"
 4. Extract the files
-
