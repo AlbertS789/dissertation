@@ -23,7 +23,7 @@ Once the access is granted
 4. Extract the files
 
 ### Running the Notebook
-The main notebook, called "Main.ipynb", contains all the code used during this project. On it, there are three variables that should be changed in order to use the different implementations. To run it, please follow these steps.
+The main notebook, called "Main.ipynb", contains all the code used during this project. On it, there are some variables that should be changed in order to use the different implementations. Please follow these steps to run the notebook.
 1. Go the "General Execution" section
 2. Make sure the relative paths are correctly writen. (It is assumed that there will be a folder "dataset" at the same level of the notebook, and on this, it will be the "15mins" folder from Pecan Street Dataset)
 3. The list "houses_ids" contains the IDs of the houses that will be considered as part of the execution.
