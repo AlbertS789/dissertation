@@ -21,3 +21,18 @@ Once the access is granted
 2. In the upper right menu, select Data > Residential Data
 3. In the table on the screen, at the row identified as "15-minute", download the file named "Austin 15-min (22.4 MB)"
 4. Extract the files
+
+### Running the Notebook
+The main notebook, called "Main.ipynb", contains all the code used during this project. On it, there are some variables that should be changed in order to use the different implementations. Please follow these steps to run the notebook.
+1. Go the "General Execution" section
+2. Make sure the relative paths are correctly writen. (It is assumed that there will be a folder "dataset" at the same level of the notebook, and on this, it will be the "15mins" folder from Pecan Street Dataset)
+3. The list "houses_ids" contains the IDs of the houses that will be considered as part of the execution.
+4. The variable "consider_human_decision" will manage if the Fuzzy System will take part of the execution or not.
+5. The variable "consider_model" will manage if the execution will consider the model or not.
+6. The variable "episodes" will say how many episodes will run the code
+7. The variable "type_mode" will manage if the model coordinator calls the train or test methods of the models
+8. The variable "months_to_use" will tell which months should the model use
+9. The varialbe "agent_use" will tell the approach to use (Random/Normal, DeepQLearning, QLearning[Q-Table])
+10. The variables "overwrite_env_train" and "overwrite_env_test" are boolean variables to control if one wants to use a previously pickle file or to create a new one for train and test, respectively
+11. The variables "overwrite_random_model", "overwrite_qlearning_model", "overwrite_deepqlearning_model" will manage if one wants to overwrite previously pickle file from each type of model. This will be used only when the variable "agent_use" points to the same approach.
+12. Select "Run All" options from the Run menu.
